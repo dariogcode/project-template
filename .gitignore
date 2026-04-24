@@ -1,0 +1,43 @@
+# Environment
+.env
+.env.local
+.env.*.local
+*.local
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.pnpm-store/
+
+# Build
+dist/
+build/
+out/
+*.egg-info/
+.next/
+
+# Tests / coverage
+coverage/
+.coverage
+.pytest_cache/
+.nyc_output/
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+.turbo/
+.parcel-cache/

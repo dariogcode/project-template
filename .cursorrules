@@ -1,0 +1,13 @@
+# Cursor rules
+
+The full and canonical context lives in `CLAUDE.md`. Read that file at the start of every session.
+
+Operational summary:
+
+- Prefer simplicity and serverless/lightweight solutions over complex infrastructure.
+- Push back when a suggestion adds unnecessary complexity.
+- Do not add new dependencies without consultation.
+- Strict typing whenever the language allows.
+- At the end of every task, report which documentation was reviewed and whether it required changes.
+- If context is missing for a decision, ask before assuming.
+- Important architectural decisions are documented as ADRs in `docs/decisions/`.
